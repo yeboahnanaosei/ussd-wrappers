@@ -1,0 +1,21 @@
+{
+    "name": "yeboahnanaosei/ussd",
+    "description": "A basic USSD aggregator and session interface library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yeboahnanaosei\\Ussd\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nana Osei Yeboah",
+            "email": "yeboahnanaosei@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/http-foundation": "^7.0"
+    }
+}
